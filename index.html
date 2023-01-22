@@ -16,7 +16,7 @@
               clifford: "#da373d",
             },
             fontFamily: {
-                manrope: ["Manrope", "sans-serif"],
+              manrope: ["Manrope", "sans-serif"],
             },
           },
         },
@@ -29,17 +29,88 @@
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
+    <!-- font awesome kit link  -->
+    <script
+      src="https://kit.fontawesome.com/1448770702.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-  <body>
+  <body class="font-manrope max-w-screen-xl mx-auto mt-16">
     <!-- header section ---------------------------------------------------------------- -->
-    <header>
-      <nav>
-        
-      </nav>
-    </header>
+    <header></header>
     <!-- main section  -------------------------------------------------------------------->
     <main>
-      <h1 class="bg-red-400 font-manrope text-3xl">Limon halder</h1>
+      <!-- banner section  -->
+      <section>
+        <div class="flex justify-between">
+          <div class="max-w-xl pl-10">
+            <h1 class="font-extrabold text-7xl leading-normal">
+              It's good <br />
+              tea time at The Tea House
+            </h1>
+            <p class="font-semibold text-lg text-gray-500 mt-8">
+              Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
+              Your Taste Buds.
+            </p>
+            <button
+              class="text-white border-0 rounded px-4 py-3 bg-gradient-to-r from-red-400 to-red-600 mt-8"
+            >
+              Explore More <i class="fa-solid fa-location-arrow"></i>
+            </button>
+          </div>
+          <div class="flex flex-col justify-center text-center">
+            <img class="max-w-xl" src="images/banner.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- feature section  -->
+      <section class="mt-48 px-10">
+        <div>
+          <div class="flex flex-col justify-center">
+            <h1 class="text-center text-5xl font-extrabold">
+              Our Featured Products
+            </h1>
+            <p class="text-center text-lg text-gray-500 mt-8">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, <br />
+              by injected humour, or randomised words which don't look even
+              slightly believable.
+            </p>
+          </div>
+        </div>
+        <!-- card set -->
+        <div class="mt-12 flex flex-row gap-7 justify-center flex-wrap">
+          <div
+            class="w-64 p-7 flex flex-col justify-center items-center bg-gradient-to-b from-slate-100 to-white rounded-md"
+          >
+            <img class="w-32" src="images/tea-1.png" alt="" />
+            <h2 class="text-center font-bold text-2xl mt-7 mb-2">Milk Tea</h2>
+            <p class="text-center text-base text-gray-500">Creamer could be replaced by fresh milk</p>
+          </div>
+          <div
+            class="w-64 p-7 flex flex-col justify-center items-center bg-gradient-to-b from-slate-100 to-white rounded-md"
+          >
+            <img class="w-32" src="images/tea-2.png" alt="" />
+            <h2 class="text-center font-bold text-2xl mt-7 mb-2">Black Tea</h2>
+            <p class="text-center text-base text-gray-500">Creamer could be replaced by fresh milk</p>
+          </div>
+          <div
+            class="w-64 p-7 flex flex-col justify-center items-center bg-gradient-to-b from-slate-100 to-white rounded-md"
+          >
+            <img class="w-32" src="images/tea-3.png" alt="" />
+            <h2 class="text-center font-bold text-2xl mt-7 mb-2">Lemon Tea</h2>
+            <p class="text-center text-base text-gray-500">Creamer could be replaced by fresh milk</p>
+          </div>
+          <div
+            class="w-64 p-7 flex flex-col justify-center items-center bg-gradient-to-b from-slate-100 to-white rounded-md"
+          >
+            <img class="w-32" src="images/tea-4.png" alt="" />
+            <h2 class="text-center font-bold text-2xl mt-7 mb-2">Greem Tea</h2>
+            <p class="text-center text-base text-gray-500">Creamer could be replaced by fresh milk</p>
+          </div>
+        </div>
+      </section>
+      
     </main>
     <!-- footer section  ------------------------------------------------------------------>
     <footer></footer>
